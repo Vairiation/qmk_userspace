@@ -12,5 +12,5 @@
 #define WS2812_DMAMUX_ID STM32_DMAMUX1_TIM15_UP
 
 /* Custom Defines for RGB timeout */
-#define RGB_MATRIX_TIMEOUT 600000
+// #define RGB_MATRIX_TIMEOUT 600000
 #define RGB_MATRIX_SLEEP
