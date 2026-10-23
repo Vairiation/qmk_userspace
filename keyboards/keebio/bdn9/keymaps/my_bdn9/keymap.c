@@ -43,6 +43,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, KC_HOME, RM_NEXT,
         KC_MPRV, KC_END , KC_MNXT
     ),
+    // Layer 2: Transparent (configurable in VIA)
+    [2] = LAYOUT(
+        _______, _______, _______,
+        _______, _______, _______,
+        _______, _______, _______
+    ),
+    // Layer 3: Transparent (configurable in VIA)
+    [3] = LAYOUT(
+        _______, _______, _______,
+        _______, _______, _______,
+        _______, _______, _______
+    ),
 };
 
 #if defined(ENCODER_MAP_ENABLE)
